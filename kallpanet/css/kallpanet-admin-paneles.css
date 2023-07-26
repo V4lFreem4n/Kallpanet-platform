@@ -1,0 +1,113 @@
+.visible{
+    display: block;
+}
+
+.hidden{
+    display: none;
+}
+
+.panel-up{
+    height: 70px;
+    width: 100%;
+    border: 1px blue solid;
+    padding: 10px;
+    padding-top: 15px;
+}
+
+h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+h2{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.text-left{
+float: left;
+}
+
+.text-right{
+float: right;
+
+}
+
+.add-button{
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    padding-top: 10px;
+    background: rgb(88, 170, 88);
+    
+}
+.add-button:hover{
+    background: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.form-grados-panel-up{
+    margin-top: 20px;
+    height: 70px;
+    width: 100%;
+    border: 1px rgb(88, 170, 88) solid;
+    padding: 15px;
+}
+
+.form-grados-table{
+    opacity: 1;
+}
+
+.text-in-left{
+    display: flex;
+    float: left;
+}
+
+.text-in-right{
+float: right;
+}
+
+/*ZONA DE PAN_SECCIONES*/
+
+.form-secciones-panel-up{
+    margin-top: 20px;
+    height: 70px;
+    width: 100%;
+    border: 1px rgb(88, 170, 88) solid;
+    padding: 15px;
+}
+
+/*ZONA DE PAN_CURSOS*/
+
+.add-button-2{
+    height: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    background: rgb(90, 76, 172);
+    margin-right: 10px;  
+}
+
+.add-button-2:hover{
+    background: rgb(0, 0, 0); 
+    color: white;  
+    cursor:pointer;
+}
+
+.group-button{
+    display: flex;
+}
+
+/* PANELES DE PROFESORES */
+
+#btn_profesores{
+    cursor: pointer;
+    
+}
+
+.back-profesores:hover{
+background: rgb(109, 116, 187);
+cursor: pointer;
+}

@@ -1,0 +1,189 @@
+.fondo {
+    background-image: url("../images/kallpanet.PNG");
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+#pan-left {
+    overflow: auto;
+    
+    max-height: 100%;
+  }
+
+.pan_left {
+    position: absolute;
+    width: 200px;
+    background: rgb(51, 51, 51);
+    height: 100%;
+    left: 0;
+}
+
+.pan-right{
+    position: absolute;
+    width: calc(100% - 200px);
+    height: 100%;
+    right: 0;
+    padding: 30px;
+    overflow: auto;
+    
+}
+
+
+.accordion-button {
+    height: 40px; /* Ajusta la altura deseada */
+    border-radius: 0; /* Elimina las esquinas redondeadas */
+    background: rgb(89, 89, 89);
+    color: white;
+}
+
+.accordion-body{
+padding: 10px;
+background: rgb(89, 89, 89);
+color: white;
+}
+
+.accordion-collapse.collapse.show {
+    height: 40px;
+  }
+  
+
+.accordion-item{
+    border-radius: 0;
+    border: none;
+    
+}
+
+.grados-pan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: rgb(89, 89, 89);
+    cursor: pointer;
+}
+
+.grados-pan:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.secciones-pan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: rgb(89, 89, 89); 
+    cursor: pointer;
+}
+
+.secciones-pan:hover{
+    background: black;
+    color: white;
+    cursor: pointer;
+}
+
+.cursos-pan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: rgb(89, 89, 89);
+}
+.profesores-pan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: rgb(89, 89, 89);
+}
+.alumnos-pan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: rgb(89, 89, 89);
+}
+.grados-pan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: rgb(89, 89, 89);
+}
+.grados-pan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: rgb(89, 89, 89);
+}
+
+.salir{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    width: 100%;
+    height: 40px;
+    color: white;
+    background: rgb(230, 60, 60);
+    cursor: pointer;
+}
+
+.tickets{
+    cursor: pointer;
+  }
+  
+
+.contenedor-cursos{
+    margin-top: 10px;
+}
+
+.contenedor-profesores{
+    margin-top: 10px;
+}
+
+.contenedor-alumnos{
+    margin-top: 10px;
+}
+
+#cursos-modificar{
+    cursor: pointer;
+}
+
+#cursos-actividad{
+    cursor: pointer;
+}
+
+
+
+  #profesores-modificar{
+    cursor: pointer;
+  }
+
+ 

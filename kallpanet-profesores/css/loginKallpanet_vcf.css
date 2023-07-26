@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+:root {
+    --ancho-login: calc(100vh * 9 / 10);
+  }
+  
+
+  body{
+    font-family: 'Fasthand', cursive;
+    font-family: 'Pacifico', cursive;
+  }
+
+  .menu-lateral { 
+    font-family: 'Roboto Flex', sans-serif;
+  }
+  .fondo{
+    background: rgb(2,187,206);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+  
+  .fondo-login{
+    padding-top: 10px;
+    position: absolute;
+    background: white;
+    aspect-ratio: 2 / 3;
+    height: var(--ancho-login);
+     
+    border-radius: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    top: calc((100% - var(--ancho-login))/2);
+  }
+
+  #logo_png{
+    width: 75%;
+  }
+
+  #string_iniSesion_text{
+    font-family: 'Satisfy', cursive;
+    font-size: 40px;
+    padding-top: 20px;
+  }
+
+  #string_descripcion_text{
+    font-family: 'Satisfy', cursive;
+    font-size: 17px;
+    padding-top: 10px;
+  }
+  
+  .danger-generado{
+    background: red;
+  }
+
+  
+  .btn-2{
+    padding: 20px;
+    width: auto;
+    height: 70px;
+    margin-top: 30px;
+    background:rgb(255,255,255);
+  }
+
+  .btn-2:hover{
+    cursor: pointer;
+    background: rgb(162, 217, 206);
+    color: white;
+  }
